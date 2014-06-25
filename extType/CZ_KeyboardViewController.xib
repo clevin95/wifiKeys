@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6154.17" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.11"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CZ_KeyboardViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="CZ_KeyboardView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="216"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dl3-Zf-n3j" customClass="CZ_Key">
+                    <rect key="frame" x="353" y="10" width="30" height="33"/>
+                    <color key="backgroundColor" red="0.45218441599999998" green="0.83707247910000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lso-ml-6lG" customClass="CZ_Key">
+                    <rect key="frame" x="430" y="10" width="30" height="33"/>
+                    <color key="backgroundColor" red="0.45218441599999998" green="0.83707247910000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vk1-mn-mXk" customClass="CZ_Key">
+                    <rect key="frame" x="2" y="10" width="27" height="45"/>
+                    <color key="backgroundColor" red="0.45218441599999998" green="0.83707247910000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lQ5-vb-grA" customClass="CZ_Key">
+                    <rect key="frame" x="34" y="10" width="27" height="45"/>
+                    <color key="backgroundColor" red="0.45218441599999998" green="0.83707247910000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bi1-jQ-c0s" customClass="CZ_Key">
+                    <rect key="frame" x="99" y="10" width="27" height="45"/>
+                    <color key="backgroundColor" red="0.45218441599999998" green="0.83707247910000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fzR-98-7C6" customClass="CZ_Key">
+                    <rect key="frame" x="66" y="10" width="27" height="45"/>
+                    <color key="backgroundColor" red="0.45218441599999998" green="0.83707247910000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bl5-2T-U8z" customClass="CZ_Key">
+                    <rect key="frame" x="131" y="10" width="27" height="45"/>
+                    <color key="backgroundColor" red="0.45218441599999998" green="0.83707247910000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dAa-xc-8vU" customClass="CZ_Key">
+                    <rect key="frame" x="196" y="10" width="27" height="45"/>
+                    <color key="backgroundColor" red="0.45218441599999998" green="0.83707247910000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6g7-nW-XdR" customClass="CZ_Key">
+                    <rect key="frame" x="163" y="10" width="27" height="45"/>
+                    <color key="backgroundColor" red="0.45218441599999998" green="0.83707247910000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rRE-Vl-1rA" customClass="CZ_Key">
+                    <rect key="frame" x="229" y="10" width="27" height="45"/>
+                    <color key="backgroundColor" red="0.45218441599999998" green="0.83707247910000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g7y-BY-YGQ" customClass="CZ_Key">
+                    <rect key="frame" x="291" y="10" width="27" height="45"/>
+                    <color key="backgroundColor" red="0.45218441599999998" green="0.83707247910000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GuG-HY-1ps" customClass="CZ_Key">
+                    <rect key="frame" x="260" y="10" width="27" height="45"/>
+                    <color key="backgroundColor" red="0.45218441599999998" green="0.83707247910000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jyE-yg-fFv" customClass="CZ_Key">
+                    <rect key="frame" x="18" y="68" width="27" height="45"/>
+                    <color key="backgroundColor" red="0.45218441599999998" green="0.83707247910000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IEC-KG-udh" customClass="CZ_Key">
+                    <rect key="frame" x="83" y="68" width="27" height="45"/>
+                    <color key="backgroundColor" red="0.45218441599999998" green="0.83707247910000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lfD-Sx-Ls4" customClass="CZ_Key">
+                    <rect key="frame" x="50" y="68" width="27" height="45"/>
+                    <color key="backgroundColor" red="0.45218441599999998" green="0.83707247910000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tnx-1b-n1L" customClass="CZ_Key">
+                    <rect key="frame" x="115" y="68" width="27" height="45"/>
+                    <color key="backgroundColor" red="0.45218441599999998" green="0.83707247910000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QfW-K5-MJS" customClass="CZ_Key">
+                    <rect key="frame" x="180" y="68" width="27" height="45"/>
+                    <color key="backgroundColor" red="0.45218441599999998" green="0.83707247910000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4AC-QM-YRO" customClass="CZ_Key">
+                    <rect key="frame" x="147" y="68" width="27" height="45"/>
+                    <color key="backgroundColor" red="0.45218441599999998" green="0.83707247910000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Ls-Ot-zgr" customClass="CZ_Key">
+                    <rect key="frame" x="213" y="68" width="27" height="45"/>
+                    <color key="backgroundColor" red="0.45218441599999998" green="0.83707247910000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NjD-Y1-Wkn" customClass="CZ_Key">
+                    <rect key="frame" x="275" y="68" width="27" height="45"/>
+                    <color key="backgroundColor" red="0.45218441599999998" green="0.83707247910000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BHz-8Q-vIC" customClass="CZ_Key">
+                    <rect key="frame" x="244" y="68" width="27" height="45"/>
+                    <color key="backgroundColor" red="0.45218441599999998" green="0.83707247910000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wgA-cA-zh9" customClass="CZ_Key">
+                    <rect key="frame" x="97" y="182" width="128" height="27"/>
+                    <color key="backgroundColor" red="0.45218441599999998" green="0.83707247910000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v7f-KT-K6c" customClass="CZ_Key">
+                    <rect key="frame" x="52" y="125" width="27" height="45"/>
+                    <color key="backgroundColor" red="0.45218441599999998" green="0.83707247910000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rrg-ac-cox" customClass="CZ_Key">
+                    <rect key="frame" x="84" y="125" width="27" height="45"/>
+                    <color key="backgroundColor" red="0.45218441599999998" green="0.83707247910000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sfg-LY-OwV" customClass="CZ_Key">
+                    <rect key="frame" x="148" y="125" width="27" height="45"/>
+                    <color key="backgroundColor" red="0.45218441599999998" green="0.83707247910000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ltb-EC-R7h" customClass="CZ_Key">
+                    <rect key="frame" x="116" y="125" width="27" height="45"/>
+                    <color key="backgroundColor" red="0.45218441599999998" green="0.83707247910000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ITL-LH-YcH" customClass="CZ_Key">
+                    <rect key="frame" x="182" y="125" width="27" height="45"/>
+                    <color key="backgroundColor" red="0.45218441599999998" green="0.83707247910000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jJt-uJ-WNo" customClass="CZ_Key">
+                    <rect key="frame" x="244" y="125" width="27" height="45"/>
+                    <color key="backgroundColor" red="0.45218441599999998" green="0.83707247910000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b1l-3v-EfA" customClass="CZ_Key">
+                    <rect key="frame" x="213" y="125" width="27" height="45"/>
+                    <color key="backgroundColor" red="0.45218441599999998" green="0.83707247910000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.96654209560000004" blue="0.54798322509999997" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outletCollection property="letterKeys" destination="vk1-mn-mXk" id="p3f-No-edE"/>
+                <outletCollection property="letterKeys" destination="lQ5-vb-grA" id="4hC-3B-eHu"/>
+                <outletCollection property="letterKeys" destination="fzR-98-7C6" id="HgN-OZ-MVK"/>
+                <outletCollection property="letterKeys" destination="Bi1-jQ-c0s" id="Fgb-0o-Q2i"/>
+                <outletCollection property="letterKeys" destination="bl5-2T-U8z" id="8gA-hI-cUc"/>
+                <outletCollection property="letterKeys" destination="6g7-nW-XdR" id="Vbg-YO-Nr6"/>
+                <outletCollection property="letterKeys" destination="dAa-xc-8vU" id="Ptm-6u-ld6"/>
+                <outletCollection property="letterKeys" destination="rRE-Vl-1rA" id="sQs-en-uy8"/>
+                <outletCollection property="letterKeys" destination="GuG-HY-1ps" id="CvS-O5-HsY"/>
+                <outletCollection property="letterKeys" destination="g7y-BY-YGQ" id="kQ3-tF-xJ0"/>
+                <outletCollection property="letterKeys" destination="jyE-yg-fFv" id="dGw-53-ZV8"/>
+                <outletCollection property="letterKeys" destination="lfD-Sx-Ls4" id="mxe-jH-qCe"/>
+                <outletCollection property="letterKeys" destination="IEC-KG-udh" id="tah-EC-M32"/>
+                <outletCollection property="letterKeys" destination="Tnx-1b-n1L" id="91L-T7-Ibq"/>
+                <outletCollection property="letterKeys" destination="4AC-QM-YRO" id="LJg-CZ-bbb"/>
+                <outletCollection property="letterKeys" destination="QfW-K5-MJS" id="jov-OA-ckP"/>
+                <outletCollection property="letterKeys" destination="3Ls-Ot-zgr" id="in9-jF-KbF"/>
+                <outletCollection property="letterKeys" destination="BHz-8Q-vIC" id="GhR-8b-nV9"/>
+                <outletCollection property="letterKeys" destination="NjD-Y1-Wkn" id="Zuh-gA-0Fg"/>
+                <outletCollection property="letterKeys" destination="v7f-KT-K6c" id="pd2-Hf-W6y"/>
+                <outletCollection property="letterKeys" destination="rrg-ac-cox" id="Bz4-MG-6FH"/>
+                <outletCollection property="letterKeys" destination="ltb-EC-R7h" id="2Bp-df-5E4"/>
+                <outletCollection property="letterKeys" destination="Sfg-LY-OwV" id="xmW-AW-8Yc"/>
+                <outletCollection property="letterKeys" destination="ITL-LH-YcH" id="gMp-VX-obr"/>
+                <outletCollection property="letterKeys" destination="b1l-3v-EfA" id="pzB-bi-5Fu"/>
+                <outletCollection property="letterKeys" destination="jJt-uJ-WNo" id="g6O-ap-Yr7"/>
+                <outletCollection property="letterKeys" destination="wgA-cA-zh9" id="vo5-ti-xkC"/>
+            </connections>
+            <point key="canvasLocation" x="-532" y="346"/>
+        </view>
+    </objects>
+</document>
